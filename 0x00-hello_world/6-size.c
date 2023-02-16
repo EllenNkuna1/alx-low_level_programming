@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main -print out sizes of data in C
+ * main -entry only
  * code by bewave ict
  * Return:always 0
 */
