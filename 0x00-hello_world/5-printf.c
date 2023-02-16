@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - print a c program using printf
  * Retun: 0 (success)
