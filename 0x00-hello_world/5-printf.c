@@ -2,7 +2,7 @@
 
 /**
  * main - print a c program using printf
- * Retun: always 0
+ * Retun: 0 (success)
  */
 int main(void)
 {
