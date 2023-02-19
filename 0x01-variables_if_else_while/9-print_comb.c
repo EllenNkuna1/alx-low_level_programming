@@ -9,12 +9,19 @@
  */
 int main(void)
 {
-	char lc;
+	int a;
 
-	for (lc = 'a' ; lc <= 'z' ; lc++);
+	for (a = 'a';)
+		(a < 10;)
+			(a++);
 	{
-		putchar (lc)
+		putchar (a + '0');
+		if (a < 9)
+	{
+		putchar (',');
+		putchar(' ');
 	}
+}
 	putchar('\n');
 	return (0);
 }
