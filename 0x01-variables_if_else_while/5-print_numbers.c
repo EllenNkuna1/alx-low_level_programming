@@ -2,7 +2,6 @@
 #include <time.h>
 #include <stdio.h>
 
-/* betty style doc for function main goes there */
 /**
  * main - Entry point
  *
@@ -10,6 +9,10 @@
  */
 int main(void)
 {
-	printf("0123456789\n");
+	int a;
+
+	for (a = 0; a < 10; a++)
+		printf("%d", a);
+	putchar('\n');
 	return (0);
 }
