@@ -13,8 +13,15 @@ int main(void)
 	l = 'a';
 	while (l <= 'z')
 	{
-		putchar(l);
-		l++;
+		if ((l != 'e') && (l != 'q'))
+		{
+			putchar(l);
+			l++;
+		}
+		else
+		{
+			l++;
+		}
 	}
 	putchar('\n');
 	return (0);
