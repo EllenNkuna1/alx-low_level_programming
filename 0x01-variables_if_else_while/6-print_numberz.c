@@ -2,7 +2,6 @@
 #include <time.h>
 #include <stdio.h>
 
-/* betty style doc for function main goes there */
 /**
  * main - Entry point
  *
@@ -10,15 +9,15 @@
  */
 int main(void)
 {
-	int i;
+	int c;
 
-	i = 48;
-	while  (i < 58)
+	c = 0;
+	while
+	     (c < 10)
 	{
-		putchar(i);
-		i++;
+		putchar(c + '0');
+		c++;
 	}
 	putchar('\n');
-
 	return (0);
 }
