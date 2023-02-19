@@ -10,21 +10,22 @@
  */
 int main(void)
 {
-	int i;
-	char l;
+	int d;
 
-	i = 48;
-	while  (i < 58)
+	char c;
+
+	c = 'a';
+	d = 0;
+	while  (d < 10)
 	{
-		putchar(i);
-		i++;
+		putchar(d + '0');
+		d++;
 	}
 
-	l = 'a';
-	while (l <= 'f')
+	while (c <= 'f')
 	{
-		putchar(l);
-		l++;
+		putchar(c);
+		c++;
 	}
 	putchar('\n');
 
