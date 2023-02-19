@@ -23,6 +23,7 @@ int main(void)
 	}
 	if (x == 0)
 	{
+	if (x < 6 && x  != 0)
 		printf("and is less than 6 and 0");
 	}
 	printf("\n");
